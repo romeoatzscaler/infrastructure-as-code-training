@@ -1,6 +1,6 @@
 # In this example, we use the 'latest' tag for simplicity. In production code, we recommend pinning to a more specific version.
 # Details: https://vsupalov.com/docker-latest-tag/
-FROM ubuntu:latest
+FROM ubuntu:20.04
 LABEL maintainer="Yevgeniy Brikman <jim@gruntwork.io>"
 
 ENV DEBIAN_FRONTEND=noninteractive
